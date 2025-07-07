@@ -1,0 +1,299 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER */
+
+.strip{
+    display: flex;
+    height: 25px;
+    background-color: rgb(239, 234, 234);
+    justify-content: flex-end;
+    margin-top: 1px;
+    align-items: center;
+    cursor: pointer;
+}
+.strip p{
+    margin-right: 25px;
+}
+.strip p:hover{
+    color: rgb(86, 9, 173);
+}
+
+.navbar{
+    height: 50px;
+    background-color: rgb(169, 166, 166);
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav{
+    width: 55%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10%;
+    cursor: pointer;
+}
+.nav p:hover{
+    color: rgb(89, 8, 161);
+}
+
+.svg{
+    width: 10%;
+    height: 60px;
+    width: 60px;
+    margin-left: 60px;
+    margin-top: 22px;
+}
+/*.icons{
+    width: 25%;
+    margin-left: 6%;
+    align-items: center;
+    gap: 10px;
+    justify-content: flex-end;
+}*/
+
+
+.offer{
+    height: 40px;
+    align-items: center;
+    background-color: rgb(249, 249, 249);
+    display: flex;
+    margin-left: 60px;
+    gap: 64.4%;
+}
+
+.icon{
+    width: 35%;
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    justify-content: flex-end;
+    gap: 20px;
+    cursor: pointer;
+
+}
+.search-bar{
+    background-color: aliceblue;
+    height: 20PX;
+    border: none;
+}
+
+
+
+/* HERO */
+
+.front{
+    position: relative
+}
+.front img{
+    width: 100%;
+    display: block;
+}
+.button-group{
+    position: absolute;
+    bottom: 100px;
+    left: 20%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+.btn{
+    background-color: rgb(238, 238, 238);
+    color: black;
+    padding: 10px 20px;
+    font-weight: bold;
+    border: 2px solid black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: rgb(155, 153, 153);
+}
+
+/*    hero2     */
+
+.card{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+.main img{
+    width: 100%;
+    display: block;
+}
+.main{
+    width: 300px;
+    height: 440px;
+    text-align: center;
+    transition: transform 0.3s border 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+    padding: 5px;
+
+    
+}
+.main p{
+    margin-top: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    border-bottom: 3px solid black;
+    width: 65%;
+}
+
+.main:hover{
+    border: 1px solid black;
+}
+
+
+/*     HERO 2      */
+
+.slides{
+    width: 92%;
+    padding-top: 80px;
+    padding-left: 116px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons{
+    
+    
+    gap: 10px;
+    display: flex;
+    
+}
+.shop-all{
+    cursor: pointer;
+    text-decoration: underline;
+    
+}
+
+
+
+/*speziAL*/
+
+.campus{
+    position: relative;
+    padding-top: 60px;
+}
+.shop-now{
+    position: absolute;
+    bottom: 120px;
+    left: 27%;
+    transform: translateX(-50%);
+    align-items: center;
+}
+
+
+h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 60px;
+    margin-left: 116px;
+}
+
+
+
+
+.ico{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+}
+.mains img{
+    height: 400px;
+    width: 100%;
+    display: block;
+}
+.mains{
+    width: 300px;
+    height: 518px;
+    
+    transition: transform 0.3s border 0.3s;
+    box-sizing: border-box;
+    cursor: pointer;
+    
+    padding: 5px;
+
+    
+}
+
+
+.mains:hover{
+    border: 1px solid black;
+}
+
+
+.mainss:hover{
+    border: 1px solid black;
+}
+.mainss{
+    transition: transform 0.3s border 03s;
+    box-sizing: border-box;
+    cursor: pointer;
+    padding: 5px;
+}
+
+
+
+
+.scrollbar-hide{
+    
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.popular{
+    display: flex;
+}
+.popular p{
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 60px;
+    margin-left: 116px;
+    width: 25%;
+    display: flex;
+}
+
+h2{
+    font-size: x-large;
+    font-weight: bolder;
+    padding-top: 60px;
+    margin-left: 116px;
+}
+
+.join{
+    
+    background-color: rgb(95, 95, 236);
+    height: 100px;
+    margin-top: 80px;
+    text-align: center;
+    color: aliceblue;   
+}
+
+
+
+
+.footer{
+    height: 130px;
+    background-color: black;
+    color: white;
+    margin-top: 1px;
+    text-align: center;
+}
+
+
+
+
